@@ -8,6 +8,7 @@ import Email from "./email/email";
 import Projects from "./projects/project";
 import Contact from "./contact/contact";
 import Resume from "./links/resume";
+import Social from "./links/social";
 
 const AppContainer = styled.div`
   background-color: hsl(233, 14%, 13%);
@@ -21,6 +22,7 @@ function App() {
       <Icon />
       <Resume />
       <ScrollBar />
+      <Social />
       <Email />
       <Projects />
       <Contact />

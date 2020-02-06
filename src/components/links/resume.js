@@ -13,7 +13,7 @@ to {
 `;
 
 const ResumeP = styled.p`
-  padding: 3px 14.4px 7px 14.4px;
+  padding: 3px 14.4px 6px 14.4px;
   border: 2px solid #e6bb00;
   border-radius: 4px;
   color: #e6bb00;
