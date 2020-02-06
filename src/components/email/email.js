@@ -1,5 +1,15 @@
 import React from "react";
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
+
+const fadeIn = keyframes`
+from {
+    opcaity: 0;
+}
+
+to {
+    opacity: 1;
+}
+`;
 
 const EmailDiv = styled.div`
   font-size: 0.8rem;
@@ -12,6 +22,8 @@ const EmailDiv = styled.div`
   bottom: 0;
   right: 0;
   z-index: 100;
+  opacity: 0;
+  animation: ${fadeIn} 450ms ease-out 3700ms forwards;
 
   &::after {
     content: "";

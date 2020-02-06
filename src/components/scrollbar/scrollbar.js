@@ -50,7 +50,7 @@ const ScrolledDiv = styled.div.attrs(props => ({
 function ScrollBar() {
   const { value } = useWindowDimensions();
 
-  return <ScrolledDiv state={value} />;
+  return <ScrolledDiv state={value} id="scroll-div" />;
 }
 
 export default ScrollBar;
