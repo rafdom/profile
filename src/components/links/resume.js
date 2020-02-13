@@ -34,6 +34,10 @@ const ResumeP = styled.p`
     color: #1d1e26;
     background-color: #e6bb00;
   }
+
+  @media only screen and (max-width: 740px) {
+    display: none;
+  }
 `;
 
 function Resume() {
