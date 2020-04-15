@@ -268,7 +268,7 @@ export const FirstImageInfo = ({ state }) => {
       <p>React.js Redux Node.js Express SCSS PostgreSQL Solidity</p>
       <p
         onClick={() =>
-          window.open("https://dev.sustainability.exchange/", "_blank")
+          window.open("https://sustainability.exchange/", "_blank")
         }
       >
         Website &#10148;
