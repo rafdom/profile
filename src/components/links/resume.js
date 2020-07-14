@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../../assets/RafaelMariscal-Resume.pdf";
+import resume from "../../assets/Rafael_Mariscal_Resume.pdf";
 import styled, { keyframes } from "styled-components";
 
 const fadeIn = keyframes`
